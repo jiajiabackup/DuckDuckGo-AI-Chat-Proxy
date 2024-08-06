@@ -19,7 +19,7 @@
 let front_website = 'next'; // using 'next' or 'better' 可以代理两套前端页面
 let using_DB = false; // 是否使用 D1 数据库，可以避免重复请求，加速访问体验
 // 数据库配置格式:
-//表名 lastvqd
+// 表名 lastvqd
 // 数据库绑定变量 vqd_db
 // 数据列 timestamp[int] key=lastvqd[text] times[int] vqd[text]
 let password = ''; // 空为不设置，不加密，前端页面随意输入访问密码即可
